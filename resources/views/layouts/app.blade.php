@@ -18,8 +18,20 @@
 <body>
 @include('layouts.navigation')
 
-<main class="p-5">
+<main >
+
+    {{-- <div class="container mx-auto">
+        <div
+          class='bg-[url("https://cdn.pixabay.com/photo/2021/04/22/17/55/flowers-6199691__340.png")] h-96 w-full bg-cover bg-center p-20'>
+          <h1 class="mb-2 text-3xl font-bold text-center text-purple-600">Background header image</h1>
+          <p class="text-xl text-center text-white">This isLorem ipsum dolor sit amet consectetur adipisicing
+            elit. Quidem debitis ipsam quia ducimus blanditiis, expedita corrupti pariatur quaerat maiores
+            harum commodi a nemo perferendis soluta eveniet quod voluptatem nihil velit!</p>
+        </div>
+      </div> --}}
+    <div class="p-2">
     {{ $slot }}
+</div>
 </main>
 
 <!-- Toast -->

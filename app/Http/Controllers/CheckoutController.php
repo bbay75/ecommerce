@@ -37,7 +37,7 @@ class CheckoutController extends Controller
                     'currency' => 'usd',
                     'product_data' => [
                         'name' => $product->title,
-//                        'images' => [$product->image]
+                    //    'images' => ['$product->image']
                     ],
                     'unit_amount' => $product->price * 100,
                 ],
